@@ -1,0 +1,42 @@
+
+
+version: 1
+applications:
+  - appRoot: packages/web
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - npm ci
+        build:
+          commands:
+            - echo ------------- Build Web App -------------
+            - npm run build
+      artifacts:
+        baseDirectory: public
+        files:
+          - "**/*"
+      cache:
+        paths:
+          - node_modules/**/*
+    test:
+      phases:
+        preTest:
+          commands:
+            - mkdir -p ci-test/lhci
+            - mkdir -p ci-test/sdtt
+        test:
+          commands:
+            - echo -------------- Run Sonar  -------------
+            - npm install -g sonarqube-scanner
+            - sonar-scanner -Dsonar.login=XXXX -Dsonar.host.url=https://XXXXX/ -Dsonar.projectKey=bcp_canada -Dsonar.projectName=bcp_canada -Dsonar.sources=./public -D:sonar.scm.disabled=true && pwd
+            - echo ------------- Run Lighthouse -------------
+            - npm install -g @lhci/cli
+            - lhci autorun --config=./lighthouserc.json
+            - echo ------------- Run SDTT -------------
+            - npm install -g structured-data-testing-tool
+            - find ./public -name *.html -exec bash -c 'sdtt --file "${0}" -p Twitter,Facebook,SocialMedia -o ci-test/sdtt/"${0//[\.\/]/\-}".txt' {} \;
+      artifacts:
+        baseDirectory: ci-test
+        files:
+          - "**/*"

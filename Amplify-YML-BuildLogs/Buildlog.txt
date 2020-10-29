@@ -1,0 +1,772 @@
+========================
+Build ID 2 / Started at 10/23/2020, 8:29:08 PM
+Amplify App - d36e86hd4onh9w (https://ci-tests.d36e86hd4onh9w.amplifyapp.com)
+Region - eu-west-1
+URL - https://eu-west-1.console.aws.amazon.com/amplify/home?region=eu-west-1#/d36e86hd4onh9w/ci-tests/2?step=BUILD
+
+=========================
+
+
+2020-10-23T14:59:38.528Z [INFO]: # Cloning repository: https://git-codecommit.eu-west-1.amazonaws.com/v1/repos/BPCOraWebsite
+2020-10-23T14:59:39.431Z [INFO]: Cloning into 'BPCOraWebsite'...
+2020-10-23T14:59:44.858Z [INFO]: remote:
+2020-10-23T14:59:46.210Z [INFO]: remote: Counting objects: 0
+2020-10-23T14:59:46.243Z [INFO]: remote: Counting objects: 737
+2020-10-23T14:59:46.320Z [INFO]: remote: Counting objects: 737remote: Counting objects: 737, done.
+2020-10-23T14:59:49.112Z [INFO]: Receiving objects:   0% (1/737)
+2020-10-23T14:59:49.116Z [INFO]: Receiving objects:   1% (8/737)Receiving objects:   2% (15/737)Receiving objects:   3% (23/737)Receiving objects:   4% (30/737)Receiving objects:   5% (37/737)Receiving objects:   6% (45/737)Receiving objects:   7% (52/737)Receiving objects:   8% (59/737)Receiving objects:   9% (67/737)Receiving objects:  10% (74/737)Receiving objects:  11% (82/737)Receiving objects:  12% (89/737)Receiving objects:  13% (96/737)Receiving objects:  14% (104/737)Receiving objects:  15% (111/737)Receiving objects:  16% (118/737)Receiving objects:  17% (126/737)Receiving objects:  18% (133/737)Receiving objects:  19% (141/737)Receiving objects:  20% (148/737)Receiving objects:  21% (155/737)Receiving objects:  22% (163/737)Receiving objects:  23% (170/737)Receiving objects:  24% (177/737)Receiving objects:  25% (185/737)Receiving objects:  26% (192/737)Receiving objects:  27% (199/737)Receiving objects:  28% (207/737)Receiving objects:  29% (214/737)Receiving objects:  30% (222/737)Receiving objects:  31% (229/737)Receiving objects:  32% (236/737)Receiving objects:  33% (244/737)
+2020-10-23T14:59:49.123Z [INFO]: Receiving objects:  34% (251/737)
+2020-10-23T14:59:49.123Z [INFO]: Receiving objects:  35% (258/737)Receiving objects:  36% (266/737)Receiving objects:  37% (273/737)Receiving objects:  38% (281/737)Receiving objects:  39% (288/737)
+2020-10-23T14:59:49.128Z [INFO]: Receiving objects:  40% (295/737)
+2020-10-23T14:59:49.129Z [INFO]: Receiving objects:  41% (303/737)
+2020-10-23T14:59:49.129Z [INFO]: Receiving objects:  42% (310/737)Receiving objects:  43% (317/737)Receiving objects:  44% (325/737)Receiving objects:  45% (332/737)Receiving objects:  46% (340/737)
+2020-10-23T14:59:49.129Z [INFO]: Receiving objects:  47% (347/737)Receiving objects:  48% (354/737)
+2020-10-23T14:59:49.140Z [INFO]: Receiving objects:  49% (362/737)
+2020-10-23T14:59:49.140Z [INFO]: Receiving objects:  50% (369/737)Receiving objects:  51% (376/737)Receiving objects:  52% (384/737)
+2020-10-23T14:59:49.141Z [INFO]: Receiving objects:  53% (391/737)Receiving objects:  54% (398/737)
+2020-10-23T14:59:49.141Z [INFO]: Receiving objects:  55% (406/737)Receiving objects:  56% (413/737)Receiving objects:  57% (421/737)Receiving objects:  58% (428/737)Receiving objects:  59% (435/737)
+2020-10-23T14:59:49.141Z [INFO]: Receiving objects:  60% (443/737)Receiving objects:  61% (450/737)Receiving objects:  62% (457/737)Receiving objects:  63% (465/737)
+2020-10-23T14:59:49.141Z [INFO]: Receiving objects:  64% (472/737)Receiving objects:  65% (480/737)
+2020-10-23T14:59:49.142Z [INFO]: Receiving objects:  66% (487/737)Receiving objects:  67% (494/737)Receiving objects:  68% (502/737)
+2020-10-23T14:59:49.142Z [INFO]: Receiving objects:  69% (509/737)Receiving objects:  70% (516/737)Receiving objects:  71% (524/737)Receiving objects:  72% (531/737)Receiving objects:  73% (539/737)Receiving objects:  74% (546/737)Receiving objects:  75% (553/737)Receiving objects:  76% (561/737)Receiving objects:  77% (568/737)Receiving objects:  78% (575/737)Receiving objects:  79% (583/737)
+2020-10-23T14:59:49.142Z [INFO]: Receiving objects:  80% (590/737)Receiving objects:  81% (597/737)Receiving objects:  82% (605/737)Receiving objects:  83% (612/737)Receiving objects:  84% (620/737)
+2020-10-23T14:59:49.142Z [INFO]: Receiving objects:  85% (627/737)Receiving objects:  86% (634/737)Receiving objects:  87% (642/737)
+2020-10-23T14:59:49.143Z [INFO]: Receiving objects:  88% (649/737)Receiving objects:  89% (656/737)Receiving objects:  90% (664/737)Receiving objects:  91% (671/737)Receiving objects:  92% (679/737)Receiving objects:  93% (686/737)Receiving objects:  94% (693/737)Receiving objects:  95% (701/737)Receiving objects:  96% (708/737)Receiving objects:  97% (715/737)Receiving objects:  98% (723/737)
+2020-10-23T14:59:49.143Z [INFO]: Receiving objects:  99% (730/737)Receiving objects: 100% (737/737)Receiving objects: 100% (737/737), 939.32 KiB | 29.35 MiB/s, done.
+                                 Resolving deltas:   0% (0/219)
+2020-10-23T14:59:49.143Z [INFO]: Resolving deltas:   1% (3/219)Resolving deltas:   2% (5/219)Resolving deltas:   3% (7/219)Resolving deltas:   4% (9/219)Resolving deltas:   5% (11/219)Resolving deltas:   6% (15/219)Resolving deltas:   7% (17/219)Resolving deltas:   8% (19/219)Resolving deltas:   9% (20/219)Resolving deltas:  10% (22/219)Resolving deltas:  11% (26/219)Resolving deltas:  12% (27/219)
+2020-10-23T14:59:49.144Z [INFO]: Resolving deltas:  13% (30/219)Resolving deltas:  14% (31/219)Resolving deltas:  15% (33/219)Resolving deltas:  16% (36/219)Resolving deltas:  17% (38/219)Resolving deltas:  18% (40/219)Resolving deltas:  19% (42/219)Resolving deltas:  20% (45/219)Resolving deltas:  21% (47/219)Resolving deltas:  22% (49/219)Resolving deltas:  23% (51/219)Resolving deltas:  24% (53/219)Resolving deltas:  25% (55/219)
+2020-10-23T14:59:49.144Z [INFO]: Resolving deltas:  26% (58/219)Resolving deltas:  27% (60/219)Resolving deltas:  31% (69/219)Resolving deltas:  32% (71/219)Resolving deltas:  33% (73/219)Resolving deltas:  34% (75/219)Resolving deltas:  35% (77/219)Resolving deltas:  36% (79/219)Resolving deltas:  37% (82/219)Resolving deltas:  38% (85/219)Resolving deltas:  39% (86/219)
+2020-10-23T14:59:49.144Z [INFO]: Resolving deltas:  40% (88/219)Resolving deltas:  41% (91/219)Resolving deltas:  42% (93/219)Resolving deltas:  43% (95/219)Resolving deltas:  44% (97/219)Resolving deltas:  53% (117/219)
+2020-10-23T14:59:49.144Z [INFO]: Resolving deltas:  61% (134/219)Resolving deltas:  62% (136/219)
+2020-10-23T14:59:49.145Z [INFO]: Resolving deltas:  77% (169/219)Resolving deltas:  79% (175/219)Resolving deltas:  81% (178/219)Resolving deltas:  82% (181/219)Resolving deltas:  83% (182/219)Resolving deltas:  84% (184/219)Resolving deltas:  92% (202/219)
+2020-10-23T14:59:49.145Z [INFO]: Resolving deltas:  94% (206/219)Resolving deltas:  99% (218/219)
+2020-10-23T14:59:49.150Z [INFO]: Resolving deltas: 100% (219/219)
+2020-10-23T14:59:49.150Z [INFO]: Resolving deltas: 100% (219/219), done.
+2020-10-23T14:59:49.256Z [INFO]: # Switching to commit: 2c8cdcf56ff9db0994e8c466947559b6843246cd
+2020-10-23T14:59:49.266Z [INFO]: Note: switching to '2c8cdcf56ff9db0994e8c466947559b6843246cd'.
+                                 You are in 'detached HEAD' state. You can look around, make experimental
+                                 changes and commit them, and you can discard any commits you make in this
+                                 state without impacting any branches by switching back to a branch.
+                                 If you want to create a new branch to retain commits you create, you may
+                                 do so (now or later) by using -c with the switch command. Example:
+                                 git switch -c <new-branch-name>
+                                 Or undo this operation with:
+                                 git switch -
+                                 Turn off this advice by setting config variable advice.detachedHead to false
+                                 HEAD is now at 2c8cdcf updated amplify yml
+2020-10-23T14:59:49.293Z [INFO]: Successfully cleaned up Git credentials
+2020-10-23T14:59:49.293Z [INFO]: # Checking for Git submodules at: /codebuild/output/src642603188/src/BPCOraWebsite/.gitmodules
+2020-10-23T14:59:49.326Z [INFO]: # Retrieving cache...
+2020-10-23T14:59:49.404Z [INFO]: # Extracting cache...
+2020-10-23T14:59:49.412Z [INFO]: # Extraction completed
+2020-10-23T14:59:49.413Z [INFO]: # Retrieving environment cache...
+2020-10-23T14:59:49.436Z [INFO]: # Retrieved environment cache
+2020-10-23T14:59:49.485Z [WARNING]: mesg: ttyname failed: Inappropriate ioctl for device
+2020-10-23T14:59:49.485Z [INFO]: ## Starting Frontend Build
+                                 # Starting phase: preBuild
+                                 # Executing command: npm ci
+2020-10-23T15:00:08.810Z [INFO]: > node-sass@4.14.1 install /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/node-sass
+                                 > node scripts/install.js
+2020-10-23T15:00:09.611Z [INFO]: Downloading binary from https://github.com/sass/node-sass/releases/download/v4.14.1/linux-x64-72_binding.node
+2020-10-23T15:00:10.477Z [INFO]: Download complete
+2020-10-23T15:00:10.510Z [INFO]: Binary saved to /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/node-sass/vendor/linux-x64-72/binding.node
+2020-10-23T15:00:10.550Z [INFO]: Caching binary to /root/.npm/_cacache/node-sass/4.14.1/linux-x64-72_binding.node
+2020-10-23T15:00:10.569Z [INFO]: > node-sass@4.14.1 postinstall /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/node-sass
+                                 > node scripts/build.js
+2020-10-23T15:00:10.703Z [INFO]: Binary found at /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/node-sass/vendor/linux-x64-72/binding.node
+2020-10-23T15:00:10.703Z [INFO]: Testing binary
+2020-10-23T15:00:10.823Z [INFO]: Binary is fine
+2020-10-23T15:00:10.874Z [INFO]: > sharp@0.25.4 install /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/sharp
+                                 > (node install/libvips && node install/dll-copy && prebuild-install --runtime=napi) || (node-gyp rebuild && node install/dll-copy)
+2020-10-23T15:00:11.273Z [WARNING]: info
+2020-10-23T15:00:11.274Z [WARNING]: sharp Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.9.1/libvips-8.9.1-linux-x64.tar.gz
+2020-10-23T15:00:13.763Z [INFO]: > pngquant-bin@6.0.0 postinstall /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/pngquant-bin
+                                 > node lib/install.js
+2020-10-23T15:00:14.002Z [WARNING]: ✔ pngquant pre-build test passed successfully
+2020-10-23T15:00:14.013Z [INFO]: > mozjpeg@7.0.0 postinstall /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/mozjpeg
+                                 > node lib/install.js
+2020-10-23T15:00:14.254Z [WARNING]: ✔ mozjpeg pre-build test passed successfully
+2020-10-23T15:00:14.254Z [WARNING]: 
+2020-10-23T15:00:14.306Z [INFO]: > core-js@2.6.11 postinstall /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/babel-runtime/node_modules/core-js
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2020-10-23T15:00:14.344Z [INFO]: [96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+                                 [96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+                                 [96m>[94m https://opencollective.com/core-js [0m
+                                 [96m>[94m https://www.patreon.com/zloirock [0m
+                                 [96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+2020-10-23T15:00:14.458Z [INFO]: > fsevents@1.2.13 install /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/fsevents
+                                 > node install.js
+2020-10-23T15:00:14.493Z [INFO]: 
+2020-10-23T15:00:14.494Z [INFO]: Skipping 'fsevents' build as platform linux is not supported
+2020-10-23T15:00:14.704Z [INFO]: > gatsby-telemetry@1.3.37 postinstall /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/gatsby-telemetry
+                                 > node src/postinstall.js || true
+2020-10-23T15:00:14.942Z [INFO]: > gatsby-cli@2.12.102 postinstall /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/gatsby/node_modules/gatsby-cli
+                                 > node scripts/postinstall.js
+2020-10-23T15:00:15.000Z [INFO]: > core-js-pure@3.6.5 postinstall /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/core-js-pure
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2020-10-23T15:00:15.038Z [INFO]: [96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+                                 [96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+                                 [96m>[94m https://opencollective.com/core-js [0m
+                                 [96m>[94m https://www.patreon.com/zloirock [0m
+                                 [96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+2020-10-23T15:00:15.101Z [INFO]: > core-js@3.6.5 postinstall /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/core-js
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2020-10-23T15:00:15.139Z [INFO]: [96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+                                 [96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+                                 [96m>[94m https://opencollective.com/core-js [0m
+                                 [96m>[94m https://www.patreon.com/zloirock [0m
+                                 [96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+2020-10-23T15:00:15.198Z [INFO]: > gatsby@2.24.67 postinstall /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/node_modules/gatsby
+                                 > node scripts/postinstall.js
+2020-10-23T15:00:15.365Z [INFO]: added 2587 packages in 22.666s
+2020-10-23T15:00:15.378Z [INFO]: # Completed phase: preBuild
+                                 # Starting phase: build
+                                 # Executing command: echo ------------- Build Web App -------------
+2020-10-23T15:00:15.378Z [INFO]: ------------- Build Web App -------------
+                                 # Executing command: npm run build
+2020-10-23T15:00:15.536Z [INFO]: > bpc-ora-web@0.1.0 build /codebuild/output/src642603188/src/BPCOraWebsite/packages/web
+                                 > gatsby build
+2020-10-23T15:00:17.439Z [INFO]: success open and validate gatsby-configs - 0.016s
+2020-10-23T15:00:17.890Z [INFO]: success load plugins - 0.443s
+2020-10-23T15:00:17.912Z [INFO]: success onPreInit - 0.022s
+2020-10-23T15:00:17.915Z [INFO]: success delete html and css files from previous builds - 0.002s
+2020-10-23T15:00:17.919Z [INFO]: success initialize cache - 0.004s
+2020-10-23T15:00:17.937Z [INFO]: success copy gatsby files - 0.017s
+2020-10-23T15:00:17.947Z [INFO]: success onPreBootstrap - 0.010s
+2020-10-23T15:00:17.982Z [INFO]: success createSchemaCustomization - 0.004s
+2020-10-23T15:00:18.049Z [INFO]: success Checking for changed pages - 0.000s
+2020-10-23T15:00:18.051Z [INFO]: success source and transform nodes - 0.067s
+2020-10-23T15:00:18.295Z [INFO]: success building schema - 0.245s
+2020-10-23T15:00:18.296Z [INFO]: info Total nodes: 53, SitePage nodes: 1 (use --verbose for breakdown)
+2020-10-23T15:00:18.296Z [INFO]: success createPages - 0.001s
+2020-10-23T15:00:18.296Z [INFO]: success Checking for changed pages - 0.000s
+2020-10-23T15:00:18.344Z [INFO]: success createPagesStatefully - 0.047s
+2020-10-23T15:00:18.365Z [INFO]: success update schema - 0.021s
+2020-10-23T15:00:18.366Z [INFO]: success onPreExtractQueries - 0.000s
+2020-10-23T15:00:18.628Z [INFO]: success extract queries from components - 0.262s
+2020-10-23T15:00:18.630Z [INFO]: success write out redirect data - 0.000s
+2020-10-23T15:00:18.758Z [INFO]: success Build manifest and related icons - 0.127s
+2020-10-23T15:00:18.759Z [INFO]: success onPostBootstrap - 0.128s
+2020-10-23T15:00:18.760Z [INFO]: info bootstrap finished - 3.217s
+2020-10-23T15:00:18.989Z [INFO]: success run static queries - 0.226s - 3/3 13.25/s
+2020-10-23T15:00:18.994Z [INFO]: success run page queries - 0.005s - 4/4 831.52/s
+2020-10-23T15:00:18.997Z [INFO]: success write out requires - 0.003s
+2020-10-23T15:00:29.461Z [WARNING]: warning chunk styles [mini-css-extract-plugin]
+                                    Conflicting order. Following module has been added:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/atoms/Heading/Heading.scss
+                                    despite it was not able to fulfill desired ordering with these modules:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/styles/global.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+                                    * css ./node_modules/css-loader??ref--11-oneOf-1-1!./node_modules/postcss-loader/src??postcss-2!./src/components/layout.css
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/organisms/Footer/Footer.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/atoms/Button/Button.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/organisms/Header/Header.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+2020-10-23T15:00:29.466Z [WARNING]: warning chunk styles [mini-css-extract-plugin]
+                                    Conflicting order. Following module has been added:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/organisms/Header/Header.scss
+                                    despite it was not able to fulfill desired ordering with these modules:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/molecules/Card/card.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/molecules/WelcomeChatBtn/WelcomeChatBtn.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/atoms/Chat/Chat.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/atoms/Button/Button.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-404-js, component---src-pages-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/atoms/Paragraph/paragraph.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+                                    warning chunk styles [mini-css-extract-plugin]
+                                    Conflicting order. Following module has been added:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/atoms/Button/Button.scss
+                                    despite it was not able to fulfill desired ordering with these modules:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/atoms/Paragraph/paragraph.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+2020-10-23T15:00:29.467Z [WARNING]: warning chunk styles [mini-css-extract-plugin]
+                                    Conflicting order. Following module has been added:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/atoms/Paragraph/paragraph.scss
+                                    despite it was not able to fulfill desired ordering with these modules:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/styles/global.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+                                    * css ./node_modules/css-loader??ref--11-oneOf-1-1!./node_modules/postcss-loader/src??postcss-2!./src/components/layout.css
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/organisms/Footer/Footer.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+2020-10-23T15:00:29.467Z [WARNING]: warning chunk styles [mini-css-extract-plugin]
+                                    Conflicting order. Following module has been added:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/organisms/Footer/Footer.scss
+                                    despite it was not able to fulfill desired ordering with these modules:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/molecules/Card/card.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/molecules/WelcomeChatBtn/WelcomeChatBtn.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/atoms/Chat/Chat.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+                                    warning chunk styles [mini-css-extract-plugin]
+                                    Conflicting order. Following module has been added:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/atoms/Chat/Chat.scss
+                                    despite it was not able to fulfill desired ordering with these modules:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/styles/global.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+                                    * css ./node_modules/css-loader??ref--11-oneOf-1-1!./node_modules/postcss-loader/src??postcss-2!./src/components/layout.css
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+2020-10-23T15:00:29.467Z [WARNING]: warning chunk styles [mini-css-extract-plugin]
+                                    Conflicting order. Following module has been added:
+                                    * css ./node_modules/css-loader??ref--11-oneOf-1-1!./node_modules/postcss-loader/src??postcss-2!./src/components/layout.css
+                                    despite it was not able to fulfill desired ordering with these modules:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/molecules/Card/card.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/molecules/WelcomeChatBtn/WelcomeChatBtn.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+                                    warning chunk styles [mini-css-extract-plugin]
+                                    Conflicting order. Following module has been added:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/molecules/WelcomeChatBtn/WelcomeChatBtn.scss
+                                    despite it was not able to fulfill desired ordering with these modules:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/styles/global.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-home-index-js
+                                    warning chunk styles [mini-css-extract-plugin]
+                                    Conflicting order. Following module has been added:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/styles/global.scss
+                                    despite it was not able to fulfill desired ordering with these modules:
+                                    * css ./node_modules/css-loader??ref--12-oneOf-1-1!./node_modules/postcss-loader/src??postcss-3!./node_modules/sass-loader/dist/cjs.js??ref--12-oneOf-1-3!./src/components/molecules/Card/card.scss
+                                    - couldn't fulfill desired order of chunk group(s) component---src-pages-home-index-js
+                                    - while fulfilling desired order of chunk group(s) component---src-pages-index-js
+2020-10-23T15:00:29.468Z [INFO]: success Building production JavaScript and CSS bundles - 10.469s
+2020-10-23T15:00:29.548Z [INFO]: success Rewriting compilation hashes - 0.001s
+2020-10-23T15:00:31.652Z [INFO]: {}
+2020-10-23T15:00:31.652Z [INFO]: {}
+2020-10-23T15:00:31.658Z [INFO]: {
+                                 node: {
+                                 extension: 'png',
+                                 relativePath: 'logo.png',
+                                 childImageSharp: { fluid: [Object] }
+                                 }
+                                 }
+2020-10-23T15:00:31.661Z [INFO]: {
+                                 node: {
+                                 extension: 'png',
+                                 relativePath: 'footer-logo.png',
+                                 childImageSharp: { fluid: [Object] }
+                                 }
+                                 }
+2020-10-23T15:00:31.666Z [INFO]: {
+                                 node: {
+                                 extension: 'png',
+                                 relativePath: 'logo.png',
+                                 childImageSharp: { fluid: [Object] }
+                                 }
+                                 }
+2020-10-23T15:00:31.667Z [INFO]: {
+                                 node: {
+                                 extension: 'png',
+                                 relativePath: 'footer-logo.png',
+                                 childImageSharp: { fluid: [Object] }
+                                 }
+                                 }
+2020-10-23T15:00:31.669Z [INFO]: {
+                                 node: {
+                                 extension: 'png',
+                                 relativePath: 'logo.png',
+                                 childImageSharp: { fluid: [Object] }
+                                 }
+                                 }
+2020-10-23T15:00:31.670Z [INFO]: {
+                                 node: {
+                                 extension: 'png',
+                                 relativePath: 'footer-logo.png',
+                                 childImageSharp: { fluid: [Object] }
+                                 }
+                                 }
+2020-10-23T15:00:31.674Z [INFO]: {
+                                 node: {
+                                 extension: 'png',
+                                 relativePath: 'logo.png',
+                                 childImageSharp: { fluid: [Object] }
+                                 }
+                                 }
+2020-10-23T15:00:31.674Z [INFO]: {
+                                 node: {
+                                 extension: 'png',
+                                 relativePath: 'footer-logo.png',
+                                 childImageSharp: { fluid: [Object] }
+                                 }
+                                 }
+2020-10-23T15:00:31.679Z [INFO]: success Building static HTML for pages - 2.096s - 4/4 1.91/s
+2020-10-23T15:00:31.680Z [INFO]: success Generating image thumbnails - 12.900s - 39/39 3.02/s
+2020-10-23T15:00:31.680Z [INFO]: success onPostBuild - 0.001s
+2020-10-23T15:00:31.682Z [INFO]: info Done building in 16.139763451 sec
+2020-10-23T15:00:31.951Z [INFO]: Hello! Will you help Gatsby improve by taking a four question survey?
+                                 It takes less than five minutes and your ideas and feedback will be very helpful.
+2020-10-23T15:00:31.951Z [INFO]: Give us your feedback here: https://gatsby.dev/feedback
+2020-10-23T15:00:33.360Z [INFO]: # Completed phase: build
+                                 ## Completed Frontend Build
+2020-10-23T15:00:33.375Z [INFO]: ## Build completed successfully
+2020-10-23T15:00:33.377Z [INFO]: # Starting caching...
+2020-10-23T15:00:33.479Z [INFO]: Creating cache artifact...
+2020-10-23T15:00:33.500Z [INFO]: # Cache artifact is: 0MB
+2020-10-23T15:00:33.500Z [INFO]: # Uploading cache artifact...
+2020-10-23T15:00:33.560Z [INFO]: # Caching completed
+2020-10-23T15:00:33.568Z [WARNING]: mesg: ttyname failed: Inappropriate ioctl for device
+2020-10-23T15:00:33.568Z [INFO]: ## Starting Test Execution
+                                 # Starting phase: preTest
+                                 # Executing command: mkdir -p ci-test/lhci
+2020-10-23T15:00:33.569Z [INFO]: # Executing command: mkdir -p ci-test/sdtt
+2020-10-23T15:00:33.570Z [INFO]: # Completed phase: preTest
+                                 # Starting phase: test
+2020-10-23T15:00:33.570Z [INFO]: # Executing command: echo -------------- Run Sonar  -------------
+                                 -------------- Run Sonar -------------
+                                 # Executing command: npm install -g sonarqube-scanner
+2020-10-23T15:00:37.154Z [INFO]: /usr/local/bin/sonar-scanner -> /usr/local/lib/node_modules/sonarqube-scanner/dist/bin/sonar-scanner
+2020-10-23T15:00:37.186Z [INFO]: + sonarqube-scanner@2.7.0
+                                 added 147 packages from 78 contributors in 3.308s
+2020-10-23T15:00:37.426Z [INFO]: # Executing command: sonar-scanner -Dsonar.login=9045d3a03dc2b51933324e5968b4a540f356a1bf -Dsonar.host.url=https://sonar.unileversolutions.com/ -Dsonar.projectKey=bcp_canada -Dsonar.projectName=bcp_canada -Dsonar.sources=./public -D:sonar.scm.disabled=true && pwd
+2020-10-23T15:00:37.545Z [INFO]: [15:00:37]
+2020-10-23T15:00:37.545Z [INFO]: Starting analysis...
+2020-10-23T15:00:37.565Z [INFO]: [15:00:37]
+2020-10-23T15:00:37.565Z [INFO]: Getting info from "package.json" file
+2020-10-23T15:00:37.566Z [INFO]: [15:00:37]
+2020-10-23T15:00:37.566Z [INFO]: Checking if executable exists: /root/.sonar/native-sonar-scanner/sonar-scanner-4.4.0.2170-linux/bin/sonar-scanner
+                                 [15:00:37] Could not find executable in "/root/.sonar/native-sonar-scanner".
+                                 [15:00:37] Proceed with download of the platform binaries for SonarScanner...
+2020-10-23T15:00:37.567Z [INFO]: [15:00:37] Creating /root/.sonar/native-sonar-scanner
+2020-10-23T15:00:37.567Z [INFO]: [15:00:37]
+2020-10-23T15:00:37.567Z [INFO]: Downloading from https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.4.0.2170-linux.zip
+                                 [15:00:37] (executable will be saved in cache folder: /root/.sonar/native-sonar-scanner)
+2020-10-23T15:00:38.419Z [WARNING]: 
+2020-10-23T15:00:40.022Z [INFO]: INFO: Scanner configuration file: /root/.sonar/native-sonar-scanner/sonar-scanner-4.4.0.2170-linux/conf/sonar-scanner.properties
+2020-10-23T15:00:40.022Z [INFO]: 
+2020-10-23T15:00:40.023Z [INFO]: INFO: Project root configuration file: NONE
+2020-10-23T15:00:40.023Z [INFO]: 
+2020-10-23T15:00:40.051Z [INFO]: INFO: SonarScanner 4.4.0.2170
+2020-10-23T15:00:40.051Z [INFO]: INFO: Java 11.0.3 AdoptOpenJDK (64-bit)
+                                 INFO: Linux 4.14.193-113.317.amzn1.x86_64 amd64
+2020-10-23T15:00:40.261Z [INFO]: INFO: User cache: /root/.sonar/cache
+2020-10-23T15:00:45.850Z [INFO]: INFO: Scanner configuration file: /root/.sonar/native-sonar-scanner/sonar-scanner-4.4.0.2170-linux/conf/sonar-scanner.properties
+2020-10-23T15:00:45.859Z [INFO]: INFO: Project root configuration file: NONE
+2020-10-23T15:00:45.870Z [INFO]: INFO: Analyzing on SonarQube server 7.0.0
+                                 INFO: Default locale: "en_US", source code encoding: "US-ASCII" (analysis is platform dependent)
+2020-10-23T15:00:46.055Z [INFO]: INFO: Publish mode
+2020-10-23T15:00:46.159Z [INFO]: INFO: Load global settings
+2020-10-23T15:00:46.537Z [INFO]: INFO: Load global settings (done) | time=378ms
+2020-10-23T15:00:46.545Z [INFO]: INFO: Server id: AWF6DoaBnOt6LrVjKjoS
+2020-10-23T15:00:46.551Z [INFO]: INFO: User cache: /root/.sonar/cache
+2020-10-23T15:00:46.551Z [INFO]: 
+2020-10-23T15:00:46.845Z [INFO]: INFO: Load plugins index
+2020-10-23T15:00:47.491Z [INFO]: INFO: Load plugins index (done) | time=646ms
+2020-10-23T15:00:47.492Z [INFO]: INFO: Load/download plugins
+2020-10-23T15:00:52.169Z [INFO]: INFO: Load/download plugins (done) | time=4677ms
+2020-10-23T15:00:52.513Z [INFO]: INFO: Process project properties
+2020-10-23T15:00:52.526Z [INFO]: INFO: Load project repositories
+2020-10-23T15:00:52.718Z [INFO]: INFO: Load project repositories (done) | time=192ms
+2020-10-23T15:00:52.721Z [INFO]: INFO: Execute project builders
+2020-10-23T15:00:52.721Z [INFO]: INFO: Execute project builders (done) | time=1ms
+2020-10-23T15:00:52.813Z [INFO]: INFO: Load quality profiles
+2020-10-23T15:00:53.001Z [INFO]: INFO: Load quality profiles (done) | time=188ms
+2020-10-23T15:00:53.013Z [INFO]: INFO: Load active rules
+2020-10-23T15:00:53.652Z [INFO]: INFO: Load active rules (done) | time=638ms
+2020-10-23T15:00:53.653Z [INFO]: INFO: Load metrics repository
+2020-10-23T15:00:53.833Z [INFO]: INFO: Load metrics repository (done) | time=180ms
+2020-10-23T15:00:53.838Z [INFO]: WARN: SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+2020-10-23T15:00:53.839Z [INFO]: INFO: Project key: bcp_canada
+2020-10-23T15:00:53.840Z [INFO]: INFO: -------------  Scan bcp_canada
+2020-10-23T15:00:53.890Z [INFO]: INFO: Load server rules
+2020-10-23T15:00:54.079Z [INFO]: INFO: Load server rules (done) | time=189ms
+2020-10-23T15:00:54.096Z [INFO]: INFO: Base dir: /codebuild/output/src642603188/src/BPCOraWebsite/packages/web
+2020-10-23T15:00:54.096Z [INFO]: INFO: Working dir: /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/.scannerwork
+2020-10-23T15:00:54.097Z [INFO]: INFO: Source paths: public
+2020-10-23T15:00:54.097Z [INFO]: INFO: Source encoding: US-ASCII, default locale: en_US
+2020-10-23T15:00:54.135Z [INFO]: INFO: Index files
+2020-10-23T15:00:54.137Z [INFO]: INFO: Excluded sources:
+2020-10-23T15:00:54.138Z [INFO]: INFO:   node_modules/**
+                                 INFO:   bower_components/**
+                                 INFO:   jspm_packages/**
+                                 INFO:   typings/**
+                                 INFO:   lib-cov/**
+2020-10-23T15:00:54.194Z [INFO]: INFO: 84 files indexed
+2020-10-23T15:00:54.194Z [INFO]: INFO: 1 file ignored because of inclusion/exclusion patterns
+2020-10-23T15:00:54.194Z [INFO]: INFO: Quality profile for js: D2 Classic Production JS Rules
+2020-10-23T15:00:54.377Z [WARNING]: WARNING: An illegal reflective access operation has occurred
+                                    WARNING: Illegal reflective access by net.sf.cglib.core.ReflectUtils$1 (file:/root/.sonar/cache/cc8ad346e85db9d3735898b533d37d34/sonar-javascript-plugin-4.0.0.5862.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+                                    WARNING: Please consider reporting this to the maintainers of net.sf.cglib.core.ReflectUtils$1
+                                    WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+                                    WARNING: All illegal access operations will be denied in a future release
+2020-10-23T15:00:54.657Z [INFO]: INFO: Sensor SonarJavaXmlFileSensor [java]
+2020-10-23T15:00:54.658Z [INFO]: INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=2ms
+2020-10-23T15:00:54.659Z [INFO]: INFO: Sensor SonarJS [javascript]
+2020-10-23T15:00:54.663Z [INFO]: INFO: 9 source files to be analyzed
+2020-10-23T15:00:54.893Z [INFO]: INFO: Sensor SonarJS [javascript] (done) | time=235ms
+2020-10-23T15:00:54.894Z [INFO]: INFO: 9/9 source files have been analyzed
+                                 INFO: Sensor SonarJS Coverage [javascript]
+2020-10-23T15:00:54.894Z [INFO]: INFO: Sensor SonarJS Coverage [javascript] (done) | time=1ms
+2020-10-23T15:00:54.894Z [INFO]: INFO: Sensor Zero Coverage Sensor
+2020-10-23T15:00:54.921Z [INFO]: INFO: Sensor Zero Coverage Sensor (done) | time=26ms
+2020-10-23T15:00:54.921Z [INFO]: INFO: Sensor CPD Block Indexer
+                                 INFO: Sensor CPD Block Indexer (done) | time=0ms
+                                 INFO: No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+2020-10-23T15:00:54.921Z [INFO]: INFO: 1 file had no CPD blocks
+2020-10-23T15:00:54.922Z [INFO]: INFO: Calculating CPD for 0 files
+2020-10-23T15:00:54.924Z [INFO]: INFO: CPD calculation finished
+2020-10-23T15:00:55.006Z [INFO]: INFO: Analysis report generated in 80ms, dir size=318 KB
+2020-10-23T15:00:55.030Z [INFO]: INFO: Analysis reports compressed in 24ms, zip size=107 KB
+2020-10-23T15:00:55.535Z [INFO]: INFO: Analysis report uploaded in 505ms
+2020-10-23T15:00:55.538Z [INFO]: INFO: ANALYSIS SUCCESSFUL, you can browse https://sonar.unileversolutions.com/dashboard/index/bcp_canada
+                                 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+                                 INFO: More about the report processing at https://sonar.unileversolutions.com/api/ce/task?id=AXVV-hoSOmpuQzHs_HCt
+2020-10-23T15:00:55.686Z [INFO]: INFO: Task total time: 3.418 s
+2020-10-23T15:00:55.765Z [INFO]: INFO: ------------------------------------------------------------------------
+2020-10-23T15:00:55.765Z [INFO]: INFO: EXECUTION SUCCESS
+                                 INFO: ------------------------------------------------------------------------
+                                 INFO: Total time: 15.751s
+2020-10-23T15:00:55.799Z [INFO]: INFO: Final Memory: 10M/40M
+                                 INFO: ------------------------------------------------------------------------
+2020-10-23T15:00:55.859Z [INFO]: [15:00:55]
+2020-10-23T15:00:55.859Z [INFO]: Analysis finished.
+2020-10-23T15:00:55.880Z [INFO]: /codebuild/output/src642603188/src/BPCOraWebsite/packages/web
+2020-10-23T15:00:55.881Z [INFO]: # Executing command: echo ------------- Run Lighthouse -------------
+                                 ------------- Run Lighthouse -------------
+                                 # Executing command: npm install -g @lhci/cli
+2020-10-23T15:00:58.495Z [WARNING]: npm
+2020-10-23T15:00:58.495Z [WARNING]: WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+2020-10-23T15:00:58.596Z [WARNING]: npm WARN
+2020-10-23T15:00:58.597Z [WARNING]: deprecated har-validator@5.1.5: this library is no longer supported
+2020-10-23T15:01:04.705Z [INFO]: /usr/local/bin/lhci -> /usr/local/lib/node_modules/@lhci/cli/src/cli.js
+2020-10-23T15:01:04.789Z [INFO]: + @lhci/cli@0.5.1
+                                 added 409 packages from 266 contributors in 8.603s
+2020-10-23T15:01:05.222Z [INFO]: # Executing command: lhci autorun --config=./lighthouserc.json
+2020-10-23T15:01:05.789Z [INFO]: ✅  .lighthouseci/ directory writable
+2020-10-23T15:01:05.790Z [INFO]: ✅  Configuration file found
+2020-10-23T15:01:05.912Z [INFO]: ✅  Chrome installation found
+2020-10-23T15:01:05.916Z [INFO]: Healthcheck passed!
+2020-10-23T15:01:05.919Z [INFO]: 
+2020-10-23T15:01:06.229Z [INFO]: Started a web server on port 38717...
+2020-10-23T15:01:06.231Z [INFO]: Running Lighthouse 3 time(s) on http://localhost:38717/404.html
+2020-10-23T15:01:06.231Z [INFO]: Run #1...
+2020-10-23T15:01:25.884Z [INFO]: done.
+2020-10-23T15:01:25.886Z [INFO]: Run #2...
+2020-10-23T15:01:33.447Z [INFO]: done.
+                                 Run #3...
+2020-10-23T15:01:41.186Z [INFO]: done.
+2020-10-23T15:01:41.188Z [INFO]: Running Lighthouse 3 time(s) on http://localhost:38717/index.html
+                                 Run #1...
+2020-10-23T15:01:48.742Z [INFO]: done.
+                                 Run #2...
+2020-10-23T15:01:56.258Z [INFO]: done.
+                                 Run #3...
+2020-10-23T15:02:03.740Z [INFO]: done.
+2020-10-23T15:02:03.742Z [INFO]: Running Lighthouse 3 time(s) on http://localhost:38717/404/index.html
+                                 Run #1...
+2020-10-23T15:02:11.126Z [INFO]: done.
+                                 Run #2...
+2020-10-23T15:02:18.529Z [INFO]: done.
+                                 Run #3...
+2020-10-23T15:02:25.932Z [INFO]: done.
+                                 Running Lighthouse 3 time(s) on http://localhost:38717/home/index.html
+                                 Run #1...
+2020-10-23T15:02:33.510Z [INFO]: done.
+                                 Run #2...
+2020-10-23T15:02:41.089Z [INFO]: done.
+                                 Run #3...
+2020-10-23T15:02:48.654Z [INFO]: done.
+2020-10-23T15:02:48.656Z [INFO]: Done running Lighthouse!
+2020-10-23T15:02:48.658Z [INFO]: 
+2020-10-23T15:02:48.989Z [WARNING]: Checking assertions against 4 URL(s), 12 total run(s)
+2020-10-23T15:02:48.990Z [WARNING]: 10 result(s) for [1mhttp://localhost:38717/404.html[0m :
+2020-10-23T15:02:48.990Z [WARNING]: [31m✘[0m  [1mlink-name[0m failure for [1mminScore[0m assertion
+                                    Links do not have a discernible name
+                                    https://web.dev/link-name/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mlong-tasks[0m failure for [1mminScore[0m assertion
+                                    Avoid long main-thread tasks
+                                    https://web.dev/long-tasks-devtools/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mmaskable-icon[0m failure for [1mminScore[0m assertion
+                                    Manifest doesn't have a maskable icon
+                                    https://web.dev/maskable-icon-audit/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1moffline-start-url[0m failure for [1mminScore[0m assertion
+                                    `start_url` does not respond with a 200 when offline
+                                    https://web.dev/offline-start-url/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mredirects-http[0m failure for [1mminScore[0m assertion
+                                    Does not redirect HTTP traffic to HTTPS
+                                    https://web.dev/redirects-http/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+2020-10-23T15:02:48.990Z [WARNING]: [31m✘[0m  [1mservice-worker[0m failure for [1mminScore[0m assertion
+                                    Does not register a service worker that controls page and `start_url`
+                                    https://web.dev/service-worker/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1munsized-images[0m failure for [1mminScore[0m assertion
+                                    Image elements do not have explicit `width` and `height`
+                                    https://web.dev/optimize-cls/#images-without-dimensions
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1muses-http2[0m failure for [1mminScore[0m assertion
+                                    Use HTTP/2
+                                    https://web.dev/uses-http2/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0.88[0m
+                                    [2mall values: 0.88, 0.88, 0.88[0m
+                                    [31m✘[0m  [1mworks-offline[0m failure for [1mminScore[0m assertion
+                                    Current page does not respond with a 200 when offline
+                                    https://web.dev/works-offline/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mcolor-contrast[0m failure for [1mminScore[0m assertion
+                                    Background and foreground colors do not have a sufficient contrast ratio.
+                                    https://web.dev/color-contrast/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    12 result(s) for [1mhttp://localhost:38717/index.html[0m :
+                                    [31m✘[0m  [1mheading-order[0m failure for [1mminScore[0m assertion
+                                    Heading elements are not in a sequentially-descending order
+                                    https://web.dev/heading-order/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mhtml-lang-valid[0m failure for [1mminScore[0m assertion
+                                    `<html>` element does not have a valid value for its `[lang]` attribute.
+                                    https://web.dev/html-lang-valid/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mlink-name[0m failure for [1mminScore[0m assertion
+                                    Links do not have a discernible name
+                                    https://web.dev/link-name/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mlong-tasks[0m failure for [1mminScore[0m assertion
+                                    Avoid long main-thread tasks
+                                    https://web.dev/long-tasks-devtools/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mmaskable-icon[0m failure for [1mminScore[0m assertion
+                                    Manifest doesn't have a maskable icon
+                                    https://web.dev/maskable-icon-audit/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1moffline-start-url[0m failure for [1mminScore[0m assertion
+                                    `start_url` does not respond with a 200 when offline
+                                    https://web.dev/offline-start-url/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mredirects-http[0m failure for [1mminScore[0m assertion
+                                    Does not redirect HTTP traffic to HTTPS
+                                    https://web.dev/redirects-http/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mservice-worker[0m failure for [1mminScore[0m assertion
+                                    Does not register a service worker that controls page and `start_url`
+                                    https://web.dev/service-worker/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1munsized-images[0m failure for [1mminScore[0m assertion
+                                    Image elements do not have explicit `width` and `height`
+                                    https://web.dev/optimize-cls/#images-without-dimensions
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+2020-10-23T15:02:48.990Z [WARNING]: [31m✘[0m  [1muses-http2[0m failure for [1mminScore[0m assertion
+                                    Use HTTP/2
+                                    https://web.dev/uses-http2/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0.88[0m
+                                    [2mall values: 0.88, 0.88, 0.88[0m
+                                    [31m✘[0m  [1mworks-offline[0m failure for [1mminScore[0m assertion
+                                    Current page does not respond with a 200 when offline
+                                    https://web.dev/works-offline/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mcolor-contrast[0m failure for [1mminScore[0m assertion
+                                    Background and foreground colors do not have a sufficient contrast ratio.
+                                    https://web.dev/color-contrast/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    9 result(s) for [1mhttp://localhost:38717/404/index.html[0m :
+                                    [31m✘[0m  [1mlink-name[0m failure for [1mminScore[0m assertion
+                                    Links do not have a discernible name
+                                    https://web.dev/link-name/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mmaskable-icon[0m failure for [1mminScore[0m assertion
+                                    Manifest doesn't have a maskable icon
+                                    https://web.dev/maskable-icon-audit/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1moffline-start-url[0m failure for [1mminScore[0m assertion
+                                    `start_url` does not respond with a 200 when offline
+                                    https://web.dev/offline-start-url/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mredirects-http[0m failure for [1mminScore[0m assertion
+                                    Does not redirect HTTP traffic to HTTPS
+                                    https://web.dev/redirects-http/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mservice-worker[0m failure for [1mminScore[0m assertion
+                                    Does not register a service worker that controls page and `start_url`
+                                    https://web.dev/service-worker/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1munsized-images[0m failure for [1mminScore[0m assertion
+                                    Image elements do not have explicit `width` and `height`
+                                    https://web.dev/optimize-cls/#images-without-dimensions
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1muses-http2[0m failure for [1mminScore[0m assertion
+                                    Use HTTP/2
+                                    https://web.dev/uses-http2/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0.87[0m
+                                    [2mall values: 0.87, 0.87, 0.87[0m
+                                    [31m✘[0m  [1mworks-offline[0m failure for [1mminScore[0m assertion
+                                    Current page does not respond with a 200 when offline
+                                    https://web.dev/works-offline/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mcolor-contrast[0m failure for [1mminScore[0m assertion
+                                    Background and foreground colors do not have a sufficient contrast ratio.
+                                    https://web.dev/color-contrast/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    12 result(s) for [1mhttp://localhost:38717/home/index.html[0m :
+                                    [31m✘[0m  [1mheading-order[0m failure for [1mminScore[0m assertion
+                                    Heading elements are not in a sequentially-descending order
+                                    https://web.dev/heading-order/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mhtml-lang-valid[0m failure for [1mminScore[0m assertion
+                                    `<html>` element does not have a valid value for its `[lang]` attribute.
+                                    https://web.dev/html-lang-valid/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mlink-name[0m failure for [1mminScore[0m assertion
+                                    Links do not have a discernible name
+                                    https://web.dev/link-name/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mlong-tasks[0m failure for [1mminScore[0m assertion
+                                    Avoid long main-thread tasks
+                                    https://web.dev/long-tasks-devtools/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mmaskable-icon[0m failure for [1mminScore[0m assertion
+                                    Manifest doesn't have a maskable icon
+                                    https://web.dev/maskable-icon-audit/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1moffline-start-url[0m failure for [1mminScore[0m assertion
+                                    `start_url` does not respond with a 200 when offline
+                                    https://web.dev/offline-start-url/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mredirects-http[0m failure for [1mminScore[0m assertion
+                                    Does not redirect HTTP traffic to HTTPS
+                                    https://web.dev/redirects-http/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mservice-worker[0m failure for [1mminScore[0m assertion
+                                    Does not register a service worker that controls page and `start_url`
+                                    https://web.dev/service-worker/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1munsized-images[0m failure for [1mminScore[0m assertion
+                                    Image elements do not have explicit `width` and `height`
+                                    https://web.dev/optimize-cls/#images-without-dimensions
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1muses-http2[0m failure for [1mminScore[0m assertion
+                                    Use HTTP/2
+                                    https://web.dev/uses-http2/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0.88[0m
+                                    [2mall values: 0.88, 0.88, 0.88[0m
+                                    [31m✘[0m  [1mworks-offline[0m failure for [1mminScore[0m assertion
+                                    Current page does not respond with a 200 when offline
+                                    https://web.dev/works-offline/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+                                    [31m✘[0m  [1mcolor-contrast[0m failure for [1mminScore[0m assertion
+                                    Background and foreground colors do not have a sufficient contrast ratio.
+                                    https://web.dev/color-contrast/
+                                    expected: >=[32m0.9[0m
+                                    found: [31m0[0m
+                                    [2mall values: 0, 0, 0[0m
+2020-10-23T15:02:48.991Z [WARNING]: Assertion failed. Exiting with status code 1.
+2020-10-23T15:02:48.995Z [INFO]: 
+2020-10-23T15:02:49.326Z [INFO]: Dumping 12 reports to disk at /codebuild/output/src642603188/src/BPCOraWebsite/packages/web/ci-test/lhci...
+2020-10-23T15:02:49.434Z [INFO]: Done writing reports to disk.
+2020-10-23T15:02:49.439Z [INFO]: 
+2020-10-23T15:02:49.440Z [WARNING]: assert command failed. Exiting with status code 1.
+2020-10-23T15:02:49.443Z [INFO]: # Executing command: echo ------------- Run SDTT -------------
+                                 ------------- Run SDTT -------------
+2020-10-23T15:02:49.443Z [INFO]: # Executing command: npm install -g structured-data-testing-tool
+2020-10-23T15:02:51.221Z [WARNING]: npm WARN
+2020-10-23T15:02:51.222Z [WARNING]: deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+2020-10-23T15:02:52.460Z [INFO]: /usr/local/bin/sdtt -> /usr/local/lib/node_modules/structured-data-testing-tool/bin/cli.js
