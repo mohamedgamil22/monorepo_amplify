@@ -2,7 +2,7 @@
 
 version: 1
 applications:
-  - appRoot: packages/web
+  - appRoot: my-hello-world-starter
     frontend:
       phases:
         preBuild:
