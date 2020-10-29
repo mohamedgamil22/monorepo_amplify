@@ -1,0 +1,477 @@
+[
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "apple-touch-icon",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Does not provide a valid `apple-touch-icon`",
+    "auditDocumentationLink": "https://web.dev/apple-touch-icon/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "document-title",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Document doesn't have a `<title>` element",
+    "auditDocumentationLink": "https://web.dev/document-title/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.01,
+    "values": [
+      0.01,
+      0.01,
+      0.01
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "first-contentful-paint",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "First Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/first-contentful-paint/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.13,
+    "values": [
+      0.11,
+      0.13,
+      0.13
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "first-cpu-idle",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "First CPU Idle",
+    "auditDocumentationLink": "https://web.dev/first-cpu-idle/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.01,
+    "values": [
+      0.01,
+      0.01,
+      0.01
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "first-meaningful-paint",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "First Meaningful Paint",
+    "auditDocumentationLink": "https://web.dev/first-meaningful-paint/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "html-has-lang",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "`<html>` element does not have a `[lang]` attribute",
+    "auditDocumentationLink": "https://web.dev/html-has-lang/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "installable-manifest",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Web app manifest does not meet the installability requirements",
+    "auditDocumentationLink": "https://web.dev/installable-manifest/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "largest-contentful-paint",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Largest Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/lighthouse-largest-contentful-paint/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "legacy-javascript",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Avoid serving legacy JavaScript to modern browsers"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "load-fast-enough-for-pwa",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Page load is not fast enough on mobile networks",
+    "auditDocumentationLink": "https://web.dev/load-fast-enough-for-pwa/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "maskable-icon",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Manifest doesn't have a maskable icon",
+    "auditDocumentationLink": "https://web.dev/maskable-icon-audit/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.66,
+    "values": [
+      0.35,
+      0.66,
+      0.62
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "max-potential-fid",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Max Potential First Input Delay",
+    "auditDocumentationLink": "https://web.dev/lighthouse-max-potential-fid/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "meta-description",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Document does not have a meta description",
+    "auditDocumentationLink": "https://web.dev/meta-description/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "offline-start-url",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "`start_url` does not respond with a 200 when offline",
+    "auditDocumentationLink": "https://web.dev/offline-start-url/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "render-blocking-resources",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Eliminate render-blocking resources",
+    "auditDocumentationLink": "https://web.dev/render-blocking-resources/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "robots-txt",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "robots.txt is not valid",
+    "auditDocumentationLink": "https://web.dev/robots-txt/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "service-worker",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Does not register a service worker that controls page and `start_url`",
+    "auditDocumentationLink": "https://web.dev/service-worker/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.06,
+    "values": [
+      0.06,
+      0.06,
+      0.06
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "splash-screen",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Is not configured for a custom splash screen",
+    "auditDocumentationLink": "https://web.dev/splash-screen/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "themed-omnibox",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Does not set a theme color for the address bar.",
+    "auditDocumentationLink": "https://web.dev/themed-omnibox/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 2,
+    "values": [
+      2,
+      2,
+      2
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "unused-javascript",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Remove unused JavaScript",
+    "auditDocumentationLink": "https://web.dev/unused-javascript/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 2,
+    "values": [
+      2,
+      2,
+      2
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1,
+      1,
+      1
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "uses-rel-preconnect",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Preconnect to required origins",
+    "auditDocumentationLink": "https://web.dev/uses-rel-preconnect/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 2,
+    "values": [
+      2,
+      2,
+      2
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "uses-text-compression",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Enable text compression",
+    "auditDocumentationLink": "https://web.dev/uses-text-compression/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "without-javascript",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Does not provide fallback content when JavaScript is not available",
+    "auditDocumentationLink": "https://web.dev/without-javascript/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "works-offline",
+    "level": "error",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Current page does not respond with a 200 when offline",
+    "auditDocumentationLink": "https://web.dev/works-offline/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.19,
+    "values": [
+      0.18,
+      0.19,
+      0.19
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "http://localhost:8000/",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive/"
+  }
+]
