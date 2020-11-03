@@ -25,13 +25,13 @@ applications:
           commands:
             - mkdir -p ci-test/lhci
             - mkdir -p ci-test/sdtt
+            - npm install -g @lhci/cli
         test:
           commands:
             - echo -------------- Run Sonar  -------------
-            - echo ------------- Run Lighthouse -------------
-            - npm install -g @lhci/cli
+            - echo ------------- Run Lighthouse ------------
             - lhci autorun --config=./lighthouserc.js
-            - echo ------------- Finished Lighthouse -------------
+            - echo ------------- Finished Lighthouse -----------
       artifacts:
         baseDirectory: public
         configFilePath: ci-test
