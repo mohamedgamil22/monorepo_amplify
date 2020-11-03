@@ -31,8 +31,9 @@ applications:
             - echo ------------- Run Lighthouse -------------
             - npm install -g @lhci/cli
             - lhci autorun --config=./lighthouserc.js
-
+            - echo ------------- Finished Lighthouse -------------
       artifacts:
-        baseDirectory: ci-test
+        baseDirectory: public
+        configFilePath: ci-test
         files:
           - "**/*"
