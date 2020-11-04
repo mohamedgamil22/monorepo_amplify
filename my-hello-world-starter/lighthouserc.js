@@ -8,7 +8,9 @@ module.exports = {
             preset: 'lighthouse:recommended',
           },
         upload: {
-            target: 'ci-test/lhci',
+            target: 'filesystem',
+            outputDir: 'ci-test/lhci'
+
         },
     },
   };
