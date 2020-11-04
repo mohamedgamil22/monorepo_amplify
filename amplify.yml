@@ -30,6 +30,7 @@ applications:
             - echo ------------- Run Lighthouse ------------
             - lhci autorun --config=./lighthouserc.js
             - echo ------------- Finished Lighthouse -----------
+            - exit 1
       artifacts:
         baseDirectory: ci-test
         files:
