@@ -29,7 +29,6 @@ applications:
             - echo -------------- Run Sonar  -------------
             - echo ------------- Run Lighthouse ------------
             - lhci autorun --config=./lighthouserc.js
-            - exit 1
             - echo ------------- Finished Lighthouse -----------
       artifacts:
         baseDirectory: public
