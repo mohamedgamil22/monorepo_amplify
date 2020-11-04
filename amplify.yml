@@ -1,5 +1,3 @@
-
-
 version: 1
 applications:
   - appRoot: my-hello-world-starter
@@ -26,11 +24,13 @@ applications:
             - mkdir -p ci-test/lhci
             - mkdir -p ci-test/sdtt
             - npm install -g @lhci/cli
+            - sudo yum install chromium -y
         test:
           commands:
             - echo -------------- Run Sonar  -------------
             - echo ------------- Run Lighthouse ------------
             - lhci autorun --config=./lighthouserc.js
+            - exit 1
             - echo ------------- Finished Lighthouse -----------
       artifacts:
         baseDirectory: public
